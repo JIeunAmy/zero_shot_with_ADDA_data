@@ -3332,7 +3332,7 @@
                     "rel_type": "toe_is"
                 },
                 {
-                    "category": "appearance",
+                    "category": "characteristic",
                     "subj_st": 0,
                     "subj_end": 1,
                     "subj_type": "animal",
@@ -7586,19 +7586,19 @@
             "relation": [
                 {
                     "category": "appearance",
-                    "subj_st": 4,
-                    "subj_end": 4,
-                    "subj_type": "skin",
+                    "subj_st": 0,
+                    "subj_end": 0,
+                    "subj_type": "animal",
                     "obj_st": 3,
                     "obj_end": 3,
                     "obj_type": "intensity",
-                    "rel_type": "skin_is"
+                    "rel_type": "animal_is"
                 },
                 {
-                    "category": "appearance",
+                    "category": "diet",
                     "subj_st": 0,
                     "subj_end": 0,
-                    "subj_type": "skin",
+                    "subj_type": "animal",
                     "obj_st": 5,
                     "obj_end": 5,
                     "obj_type": "food",
@@ -8915,7 +8915,7 @@
                     "subj_type": "animal",
                     "obj_st": 4,
                     "obj_end": 5,
-                    "obj_type": "thumbs",
+                    "obj_type": "thumb",
                     "rel_type": "do_not_have"
                 }
             ]
@@ -17785,13 +17785,13 @@
                     "rel_type": "ear_is"
                 },
                 {
-                    "category": "characteristic",
+                    "category": "appearance",
                     "subj_st": 5,
                     "subj_end": 5,
                     "subj_type": "ear",
                     "obj_st": 6,
                     "obj_end": 8,
-                    "obj_type": "characteristic",
+                    "obj_type": "fur",
                     "rel_type": "ear_is"
                 }
             ]
@@ -19008,7 +19008,7 @@
                     "obj_st": 12,
                     "obj_end": 13,
                     "obj_type": "location",
-                    "rel_type": "animal_is"
+                    "rel_type": "animal_live_in"
                 },
                 {
                     "category": "habitat",
@@ -19018,7 +19018,7 @@
                     "obj_st": 15,
                     "obj_end": 15,
                     "obj_type": "location",
-                    "rel_type": "animal_is"
+                    "rel_type": "animal_live_in"
                 }
             ]
         },
@@ -20854,7 +20854,7 @@
             ],
             "relation": [
                 {
-                    "category": "characteristic",
+                    "category": "diet",
                     "subj_st": -1,
                     "subj_end": -1,
                     "subj_type": "KEY_SUBJ",
@@ -20864,7 +20864,7 @@
                     "rel_type": "animal_feed"
                 },
                 {
-                    "category": "characteristic",
+                    "category": "diet",
                     "subj_st": -1,
                     "subj_end": -1,
                     "subj_type": "KEY_SUBJ",
@@ -20874,7 +20874,7 @@
                     "rel_type": "animal_feed"
                 },
                 {
-                    "category": "characteristic",
+                    "category": "diet",
                     "subj_st": -1,
                     "subj_end": -1,
                     "subj_type": "KEY_SUBJ",
@@ -20884,7 +20884,7 @@
                     "rel_type": "animal_feed"
                 },
                 {
-                    "category": "characteristic",
+                    "category": "diet",
                     "subj_st": -1,
                     "subj_end": -1,
                     "subj_type": "KEY_SUBJ",
@@ -20894,7 +20894,7 @@
                     "rel_type": "animal_feed"
                 },
                 {
-                    "category": "characteristic",
+                    "category": "diet",
                     "subj_st": -1,
                     "subj_end": -1,
                     "subj_type": "KEY_SUBJ",
