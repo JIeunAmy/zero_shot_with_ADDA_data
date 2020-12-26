@@ -135,7 +135,7 @@
                     "obj_st": 3,
                     "obj_end": 3,
                     "obj_type": "horn",
-                    "rel_type": "have_horn"
+                    "rel_type": "have"
                 },
                 {
                     "category": "appearance",
@@ -145,7 +145,7 @@
                     "obj_st": 5,
                     "obj_end": 5,
                     "obj_type": "hooves",
-                    "rel_type": "have_hooves"
+                    "rel_type": "have"
                 },
                 {
                     "category": "appearance",
@@ -197,7 +197,7 @@
                     "obj_st": 4,
                     "obj_end": 4,
                     "obj_type": "hooves",
-                    "rel_type": "have_hooves"
+                    "rel_type": "have"
                 }
             ]
         },
@@ -672,11 +672,21 @@
                     "category": "appearance",
                     "subj_st": 5,
                     "subj_end": 5,
-                    "subj_type": "nail",
+                    "subj_type": "claw",
                     "obj_st": 8,
                     "obj_end": 11,
                     "obj_type": "size",
-                    "rel_type": "nail_is"
+                    "rel_type": "claw_is"
+                },
+                {
+                    "category": "appearance",
+                    "subj_st": 5,
+                    "subj_end": 5,
+                    "subj_type": "claw",
+                    "obj_st": 4,
+                    "obj_end": 4,
+                    "obj_type": "location",
+                    "rel_type": "claw_is"
                 }
             ]
         },
@@ -1004,12 +1014,12 @@
             "relation": [
                 {
                     "category": "appearance",
-                    "subj_st": 2,
+                    "subj_st": 1,
                     "subj_end": 2,
                     "subj_type": "teeth",
-                    "obj_st": 0,
-                    "obj_end": 0,
-                    "obj_type": "",
+                    "obj_st": 3,
+                    "obj_end": 10,
+                    "obj_type": "characteristic",
                     "rel_type": "teeth_is"
                 }
             ]
@@ -1037,7 +1047,7 @@
                     "subj_type": "animal",
                     "obj_st": 9,
                     "obj_end": 9,
-                    "obj_type": "type",
+                    "obj_type": "family",
                     "rel_type": "animal_is_family_of"
                 }
             ]
@@ -1126,8 +1136,8 @@
                     "subj_type": "fin",
                     "obj_st": 15,
                     "obj_end": 15,
-                    "obj_type": "",
-                    "rel_type": "is_similar_to"
+                    "obj_type": "shape",
+                    "rel_type": "fin_is"
                 }
             ]
         },
@@ -1229,7 +1239,7 @@
                     "subj_type": "animal",
                     "obj_st": 3,
                     "obj_end": 4,
-                    "obj_type": "status",
+                    "obj_type": "characteristic",
                     "rel_type": "animal_is"
                 }
             ]
@@ -1391,7 +1401,7 @@
                     "obj_st": 6,
                     "obj_end": 8,
                     "obj_type": "animal",
-                    "rel_type": "animal_is_similar_to"
+                    "rel_type": "is_similar_to"
                 }
             ]
         },
@@ -1588,8 +1598,8 @@
                     "subj_type": "nose",
                     "obj_st": 5,
                     "obj_end": 5,
-                    "obj_type": "",
-                    "rel_type": "nose_is"
+                    "obj_type": "valve",
+                    "rel_type": "have"
                 },
                 {
                     "category": "appearance",
@@ -1598,8 +1608,8 @@
                     "subj_type": "ear",
                     "obj_st": 5,
                     "obj_end": 5,
-                    "obj_type": "",
-                    "rel_type": "ear_is"
+                    "obj_type": "valve",
+                    "rel_type": "have"
                 }
             ]
         },
@@ -1655,13 +1665,13 @@
                 },
                 {
                     "category": "appearance",
-                    "subj_st": 7,
-                    "subj_end": 7,
-                    "subj_type": "web",
-                    "obj_st": 8,
-                    "obj_end": 10,
-                    "obj_type": "location",
-                    "rel_type": "web_is"
+                    "subj_st": 10,
+                    "subj_end": 10,
+                    "subj_type": "toe",
+                    "obj_st": 7,
+                    "obj_end": 7,
+                    "obj_type": "web",
+                    "rel_type": "toe_is"
                 }
             ]
         },
@@ -1687,6 +1697,16 @@
                     "obj_st": 8,
                     "obj_end": 8,
                     "obj_type": "shape",
+                    "rel_type": "toe_is"
+                },
+                {
+                    "category": "appearance",
+                    "subj_st": 1,
+                    "subj_end": 2,
+                    "subj_type": "toe",
+                    "obj_st": 5,
+                    "obj_end": 6,
+                    "obj_type": "location",
                     "rel_type": "toe_is"
                 }
             ]
@@ -1966,7 +1986,7 @@
                     "subj_type": "body",
                     "obj_st": 3,
                     "obj_end": 3,
-                    "obj_type": "",
+                    "obj_type": "length",
                     "rel_type": "body_is"
                 }
             ]
@@ -3338,7 +3358,7 @@
                     "subj_type": "animal",
                     "obj_st": 12,
                     "obj_end": 12,
-                    "obj_type": "type",
+                    "obj_type": "family",
                     "rel_type": "animal_is_family_of"
                 }
             ]
@@ -4117,8 +4137,8 @@
                     "subj_end": 6,
                     "subj_type": "animal",
                     "obj_st": 2,
-                    "obj_end": 3,
-                    "obj_type": "type",
+                    "obj_end": 2,
+                    "obj_type": "characteristic",
                     "rel_type": "animal_is"
                 },
                 {
@@ -4126,9 +4146,9 @@
                     "subj_st": 5,
                     "subj_end": 6,
                     "subj_type": "animal",
-                    "obj_st": 13,
-                    "obj_end": 14,
-                    "obj_type": "type",
+                    "obj_st": 14,
+                    "obj_end": 15,
+                    "obj_type": "characteristic",
                     "rel_type": "animal_is"
                 }
             ]
@@ -4300,7 +4320,7 @@
                     "subj_type": "animal",
                     "obj_st": 5,
                     "obj_end": 6,
-                    "obj_type": "type",
+                    "obj_type": "family",
                     "rel_type": "animal_is"
                 }
             ]
@@ -4463,7 +4483,7 @@
                     "obj_st": 10,
                     "obj_end": 10,
                     "obj_type": "baleen",
-                    "rel_type": "have_baleen"
+                    "rel_type": "have"
                 },
                 {
                     "category": "appearance",
@@ -4473,7 +4493,7 @@
                     "obj_st": 2,
                     "obj_end": 3,
                     "obj_type": "shape",
-                    "rel_type": "have_baleen"
+                    "rel_type": "baleen_is"
                 },
                 {
                     "category": "appearance",
@@ -4483,7 +4503,7 @@
                     "obj_st": 16,
                     "obj_end": 16,
                     "obj_type": "location",
-                    "rel_type": "have_baleen"
+                    "rel_type": "baleen_is"
                 }
             ]
         },
@@ -5332,13 +5352,23 @@
                 },
                 {
                     "category": "appearance",
-                    "subj_st": 14,
+                    "subj_st": 15,
                     "subj_end": 15,
-                    "subj_type": "nail",
+                    "subj_type": "claw",
                     "obj_st": 13,
                     "obj_end": 13,
                     "obj_type": "length",
-                    "rel_type": "nail_is"
+                    "rel_type": "claw_is"
+                },
+                {
+                    "category": "appearance",
+                    "subj_st": 15,
+                    "subj_end": 15,
+                    "subj_type": "claw",
+                    "obj_st": 14,
+                    "obj_end": 14,
+                    "obj_type": "location",
+                    "rel_type": "claw_is"
                 }
             ]
         },
@@ -6276,12 +6306,32 @@
                 },
                 {
                     "category": "appearance",
+                    "subj_st": 1,
+                    "subj_end": 1,
+                    "subj_type": "eye",
+                    "obj_st": 8,
+                    "obj_end": 9,
+                    "obj_type": "characteristic",
+                    "rel_type": "eye_is"
+                },
+                {
+                    "category": "appearance",
                     "subj_st": 3,
                     "subj_end": 3,
                     "subj_type": "ear",
                     "obj_st": 5,
                     "obj_end": 6,
-                    "obj_type": "",
+                    "obj_type": "size",
+                    "rel_type": "ear_is"
+                },
+                {
+                    "category": "appearance",
+                    "subj_st": 3,
+                    "subj_end": 3,
+                    "subj_type": "ear",
+                    "obj_st": 8,
+                    "obj_end": 9,
+                    "obj_type": "characteristic",
                     "rel_type": "ear_is"
                 }
             ]
@@ -6708,7 +6758,7 @@
                     "subj_type": "animal",
                     "obj_st": 12,
                     "obj_end": 13,
-                    "obj_type": "color",
+                    "obj_type": "pattern",
                     "rel_type": "animal_is"
                 },
                 {
@@ -6845,7 +6895,7 @@
                     "obj_st": 8,
                     "obj_end": 8,
                     "obj_type": "animal",
-                    "rel_type": "animal_is_similar_to"
+                    "rel_type": "is_similar_to"
                 }
             ]
         },
@@ -7319,7 +7369,7 @@
                     "rel_type": "skin_is"
                 },
                 {
-                    "category": "characteristic",
+                    "category": "appearance",
                     "subj_st": 1,
                     "subj_end": 1,
                     "subj_type": "skin",
@@ -7485,13 +7535,23 @@
             ],
             "relation": [
                 {
-                    "category": "characteristic",
+                    "category": "appearance",
                     "subj_st": 1,
                     "subj_end": 1,
                     "subj_type": "animal",
                     "obj_st": 4,
                     "obj_end": 7,
                     "obj_type": "size",
+                    "rel_type": "animal_is"
+                },
+                {
+                    "category": "characteristic",
+                    "subj_st": 1,
+                    "subj_end": 1,
+                    "subj_type": "animal",
+                    "obj_st": 6,
+                    "obj_end": 7,
+                    "obj_type": "family",
                     "rel_type": "animal_is"
                 }
             ]
@@ -7829,7 +7889,7 @@
                     "subj_type": "animal",
                     "obj_st": 22,
                     "obj_end": 23,
-                    "obj_type": "name",
+                    "obj_type": "animal",
                     "rel_type": "animal_is"
                 },
                 {
@@ -7867,7 +7927,7 @@
                     "obj_st": 5,
                     "obj_end": 5,
                     "obj_type": "animal",
-                    "rel_type": "animal_is_similar_to"
+                    "rel_type": "is_similar_to"
                 },
                 {
                     "category": "characteristic",
@@ -7877,7 +7937,7 @@
                     "obj_st": 7,
                     "obj_end": 7,
                     "obj_type": "animal",
-                    "rel_type": "animal_is_similar_to"
+                    "rel_type": "is_similar_to"
                 },
                 {
                     "category": "characteristic",
@@ -7887,7 +7947,7 @@
                     "obj_st": 9,
                     "obj_end": 9,
                     "obj_type": "animal",
-                    "rel_type": "animal_is_similar_to"
+                    "rel_type": "is_similar_to"
                 }
             ]
         },
@@ -8655,7 +8715,7 @@
                     "obj_st": 2,
                     "obj_end": 3,
                     "obj_type": "hooves",
-                    "rel_type": "have_hooves"
+                    "rel_type": "have"
                 }
             ]
         },
@@ -9821,11 +9881,11 @@
                     "category": "appearance",
                     "subj_st": 23,
                     "subj_end": 23,
-                    "subj_type": "hair",
+                    "subj_type": "fur",
                     "obj_st": 3,
                     "obj_end": 3,
                     "obj_type": "location",
-                    "rel_type": "hair_is"
+                    "rel_type": "fur_is"
                 }
             ]
         },
@@ -9856,7 +9916,7 @@
                     "subj_type": "animal",
                     "obj_st": 4,
                     "obj_end": 4,
-                    "obj_type": "type",
+                    "obj_type": "family",
                     "rel_type": "animal_is"
                 }
             ]
@@ -9992,7 +10052,7 @@
                     "rel_type": "arm_is"
                 },
                 {
-                    "category": "characteristic",
+                    "category": "appearance",
                     "subj_st": 3,
                     "subj_end": 3,
                     "subj_type": "arm",
@@ -10643,7 +10703,7 @@
                     "obj_st": 15,
                     "obj_end": 15,
                     "obj_type": "animal",
-                    "rel_type": "animal_is_similar_to"
+                    "rel_type": "is_similar_to"
                 }
             ]
         },
@@ -11066,7 +11126,7 @@
             ],
             "relation": [
                 {
-                    "category": "characteristic",
+                    "category": "appearance",
                     "subj_st": 1,
                     "subj_end": 1,
                     "subj_type": "neck",
@@ -11076,7 +11136,7 @@
                     "rel_type": "neck_is"
                 },
                 {
-                    "category": "characteristic",
+                    "category": "appearance",
                     "subj_st": 1,
                     "subj_end": 1,
                     "subj_type": "neck",
@@ -11086,7 +11146,7 @@
                     "rel_type": "neck_is"
                 },
                 {
-                    "category": "characteristic",
+                    "category": "appearance",
                     "subj_st": 3,
                     "subj_end": 3,
                     "subj_type": "belly",
@@ -11096,7 +11156,7 @@
                     "rel_type": "belly_is"
                 },
                 {
-                    "category": "characteristic",
+                    "category": "appearance",
                     "subj_st": 3,
                     "subj_end": 3,
                     "subj_type": "belly",
@@ -11854,7 +11914,7 @@
             ],
             "relation": [
                 {
-                    "category": "characteristic",
+                    "category": "appearance",
                     "subj_st": 0,
                     "subj_end": 0,
                     "subj_type": "animal",
@@ -12435,10 +12495,10 @@
                     "category": "characteristic",
                     "subj_st": 0,
                     "subj_end": 0,
-                    "subj_type": "tail",
+                    "subj_type": "animal",
                     "obj_st": 4,
                     "obj_end": 5,
-                    "obj_type": "",
+                    "obj_type": "characteristic",
                     "rel_type": "do_not_have"
                 }
             ]
@@ -14008,7 +14068,7 @@
                     "subj_type": "animal",
                     "obj_st": 8,
                     "obj_end": 9,
-                    "obj_type": "type",
+                    "obj_type": "family",
                     "rel_type": "animal_is"
                 }
             ]
@@ -15080,7 +15140,7 @@
                     "obj_st": 12,
                     "obj_end": 12,
                     "obj_type": "animal",
-                    "rel_type": "animal_is_similar_to"
+                    "rel_type": "is_similar_to"
                 },
                 {
                     "category": "appearance",
@@ -15151,7 +15211,7 @@
                     "obj_st": 12,
                     "obj_end": 13,
                     "obj_type": "animal",
-                    "rel_type": "animal_is_similar_to"
+                    "rel_type": "is_similar_to"
                 }
             ]
         },
@@ -15281,7 +15341,7 @@
                     "obj_st": 10,
                     "obj_end": 11,
                     "obj_type": "hand",
-                    "rel_type": "animal_is_similar_to"
+                    "rel_type": "is_similar_to"
                 }
             ]
         },
@@ -15351,7 +15411,7 @@
                     "obj_st": 3,
                     "obj_end": 3,
                     "obj_type": "animal",
-                    "rel_type": "animal_is_similar_to"
+                    "rel_type": "is_similar_to"
                 },
                 {
                     "category": "characteristic",
@@ -16020,8 +16080,8 @@
                 {
                     "category": "appearance",
                     "subj_st": 16,
-                    "subj_end": 16,
-                    "subj_type": "shape",
+                    "subj_end": 17,
+                    "subj_type": "pattern",
                     "obj_st": 14,
                     "obj_end": 14,
                     "obj_type": "color",
@@ -16034,7 +16094,7 @@
                     "subj_type": "skin",
                     "obj_st": 16,
                     "obj_end": 16,
-                    "obj_type": "shape",
+                    "obj_type": "pattern",
                     "rel_type": "skin_is"
                 }
             ]
@@ -16234,8 +16294,8 @@
                     "subj_type": "ear",
                     "obj_st": 7,
                     "obj_end": 10,
-                    "obj_type": "similar_to",
-                    "rel_type": "ear_is"
+                    "obj_type": "animal",
+                    "rel_type": "is_similar_to"
                 }
             ]
         },
@@ -16626,7 +16686,7 @@
                     "obj_st": 6,
                     "obj_end": 8,
                     "obj_type": "animal",
-                    "rel_type": "animal_is_similar_to"
+                    "rel_type": "is_similar_to"
                 }
             ]
         },
@@ -17611,33 +17671,33 @@
             "relation": [
                 {
                     "category": "appearance",
-                    "subj_st": 4,
-                    "subj_end": 4,
-                    "subj_type": "tail",
-                    "obj_st": 0,
-                    "obj_end": 0,
-                    "obj_type": "",
-                    "rel_type": "tail_is"
+                    "subj_st": -1,
+                    "subj_end": -1,
+                    "subj_type": "KEY_SUBJ",
+                    "obj_st": 4,
+                    "obj_end": 4,
+                    "obj_type": "tail",
+                    "rel_type": "have"
                 },
                 {
                     "category": "appearance",
-                    "subj_st": 7,
-                    "subj_end": 7,
-                    "subj_type": "ear",
-                    "obj_st": 0,
-                    "obj_end": 0,
-                    "obj_type": "",
-                    "rel_type": "ear_is"
+                    "subj_st": -1,
+                    "subj_end": -1,
+                    "subj_type": "KEY_SUBJ",
+                    "obj_st": 7,
+                    "obj_end": 7,
+                    "obj_type": "ear",
+                    "rel_type": "have"
                 },
                 {
                     "category": "appearance",
-                    "subj_st": 10,
-                    "subj_end": 10,
-                    "subj_type": "fur",
-                    "obj_st": 0,
-                    "obj_end": 0,
-                    "obj_type": "",
-                    "rel_type": "fur_is"
+                    "subj_st": -1,
+                    "subj_end": -1,
+                    "subj_type": "KEY_SUBJ",
+                    "obj_st": 10,
+                    "obj_end": 10,
+                    "obj_type": "fur",
+                    "rel_type": "have"
                 }
             ]
         },
@@ -17808,7 +17868,7 @@
             ],
             "relation": [
                 {
-                    "category": "characteristic",
+                    "category": "appearance",
                     "subj_st": 0,
                     "subj_end": 0,
                     "subj_type": "animal",
@@ -18102,10 +18162,20 @@
                     "subj_st": 11,
                     "subj_end": 11,
                     "subj_type": "body",
-                    "obj_st": 0,
-                    "obj_end": 0,
-                    "obj_type": "dontknow",
+                    "obj_st": 12,
+                    "obj_end": 13,
+                    "obj_type": "shape",
                     "rel_type": "body_is"
+                },
+                {
+                    "category": "appearance",
+                    "subj_st": 11,
+                    "subj_end": 11,
+                    "subj_type": "body",
+                    "obj_st": 18,
+                    "obj_end": 18,
+                    "obj_type": "animal",
+                    "rel_type": "is_similar_to"
                 }
             ]
         },
@@ -18154,7 +18224,7 @@
                     "subj_type": "ear",
                     "obj_st": 7,
                     "obj_end": 7,
-                    "obj_type": "shpae",
+                    "obj_type": "shape",
                     "rel_type": "ear_is"
                 }
             ]
@@ -18847,7 +18917,7 @@
                     "obj_st": 2,
                     "obj_end": 2,
                     "obj_type": "animal",
-                    "rel_type": "animal_is_similar_to"
+                    "rel_type": "is_similar_to"
                 },
                 {
                     "category": "characteristic",
@@ -18881,7 +18951,7 @@
                     "obj_st": 2,
                     "obj_end": 2,
                     "obj_type": "shape",
-                    "rel_type": "nail_is"
+                    "rel_type": "claw_is"
                 },
                 {
                     "category": "appearance",
@@ -18891,7 +18961,7 @@
                     "obj_st": 6,
                     "obj_end": 6,
                     "obj_type": "location",
-                    "rel_type": "foot_is"
+                    "rel_type": "claw_is"
                 }
             ]
         },
@@ -19110,44 +19180,6 @@
                     "rel_type": "animal_feed"
                 }
             ]
-        },
-        {
-            "sentence": [
-                "its",
-                "not",
-                "only",
-                "the",
-                "abundance",
-                "of",
-                "a",
-                "particular",
-                "food",
-                "source",
-                "that",
-                "is",
-                "important",
-                "but",
-                "also",
-                "how",
-                "easy",
-                "it",
-                "is",
-                "to",
-                "catch",
-                "."
-            ],
-            "relation": [
-                {
-                    "category": "diet",
-                    "subj_st": 8,
-                    "subj_end": 8,
-                    "subj_type": "animal",
-                    "obj_st": 0,
-                    "obj_end": 0,
-                    "obj_type": "",
-                    "rel_type": "animal_feed"
-                }
-            ]
         }
     ],
     "buffalo": [
@@ -19263,7 +19295,7 @@
                     "obj_st": 16,
                     "obj_end": 17,
                     "obj_type": "texture",
-                    "rel_type": "foot_is"
+                    "rel_type": "horn_is"
                 }
             ]
         },
@@ -19468,7 +19500,7 @@
                     "obj_st": 12,
                     "obj_end": 12,
                     "obj_type": "animal",
-                    "rel_type": "animal_is_similar_to"
+                    "rel_type": "is_similar_to"
                 }
             ]
         },
@@ -19839,12 +19871,42 @@
             "relation": [
                 {
                     "category": "appearance",
+                    "subj_st": 7,
+                    "subj_end": 7,
+                    "subj_type": "belly",
+                    "obj_st": 3,
+                    "obj_end": 3,
+                    "obj_type": "pattern",
+                    "rel_type": "belly_is"
+                },
+                {
+                    "category": "appearance",
+                    "subj_st": 7,
+                    "subj_end": 7,
+                    "subj_type": "belly",
+                    "obj_st": 21,
+                    "obj_end": 21,
+                    "obj_type": "color",
+                    "rel_type": "belly_is"
+                },
+                {
+                    "category": "appearance",
                     "subj_st": 14,
                     "subj_end": 14,
                     "subj_type": "leg",
-                    "obj_st": 0,
-                    "obj_end": 0,
-                    "obj_type": "",
+                    "obj_st": 3,
+                    "obj_end": 3,
+                    "obj_type": "pattern",
+                    "rel_type": "leg_is"
+                },
+                {
+                    "category": "appearance",
+                    "subj_st": 14,
+                    "subj_end": 14,
+                    "subj_type": "leg",
+                    "obj_st": 21,
+                    "obj_end": 21,
+                    "obj_type": "color",
                     "rel_type": "leg_is"
                 }
             ]
@@ -19867,7 +19929,7 @@
                     "obj_st": 2,
                     "obj_end": 2,
                     "obj_type": "animal",
-                    "rel_type": "animal_is_similar_to"
+                    "rel_type": "is_similar_to"
                 }
             ]
         },
@@ -21044,7 +21106,7 @@
                     "category": "appearance",
                     "subj_st": 6,
                     "subj_end": 6,
-                    "subj_type": "paw",
+                    "subj_type": "hand",
                     "obj_st": 5,
                     "obj_end": 5,
                     "obj_type": "size",
@@ -22894,16 +22956,6 @@
                 },
                 {
                     "category": "appearance",
-                    "subj_st": 14,
-                    "subj_end": 14,
-                    "subj_type": "body",
-                    "obj_st": 0,
-                    "obj_end": 0,
-                    "obj_type": "",
-                    "rel_type": "body_is"
-                },
-                {
-                    "category": "appearance",
                     "subj_st": 17,
                     "subj_end": 17,
                     "subj_type": "tail",
@@ -23172,7 +23224,7 @@
                     "obj_st": 7,
                     "obj_end": 8,
                     "obj_type": "family",
-                    "rel_type": "animal_is_similar_to"
+                    "rel_type": "is_similar_to"
                 },
                 {
                     "category": "appearance",
@@ -23663,7 +23715,7 @@
                     "subj_type": "hand",
                     "obj_st": 6,
                     "obj_end": 7,
-                    "obj_type": "characteristic",
+                    "obj_type": "web",
                     "rel_type": "hand_is"
                 }
             ]
@@ -23924,9 +23976,29 @@
                     "subj_st": 1,
                     "subj_end": 1,
                     "subj_type": "tail",
-                    "obj_st": 0,
-                    "obj_end": 0,
-                    "obj_type": "",
+                    "obj_st": 5,
+                    "obj_end": 5,
+                    "obj_type": "position",
+                    "rel_type": "tail_is"
+                },
+                {
+                    "category": "appearance",
+                    "subj_st": 1,
+                    "subj_end": 1,
+                    "subj_type": "tail",
+                    "obj_st": 8,
+                    "obj_end": 9,
+                    "obj_type": "shape",
+                    "rel_type": "tail_is"
+                },
+                {
+                    "category": "appearance",
+                    "subj_st": 1,
+                    "subj_end": 1,
+                    "subj_type": "tail",
+                    "obj_st": 15,
+                    "obj_end": 15,
+                    "obj_type": "position",
                     "rel_type": "tail_is"
                 }
             ]
@@ -23967,12 +24039,42 @@
             "relation": [
                 {
                     "category": "appearance",
+                    "subj_st": 13,
+                    "subj_end": 13,
+                    "subj_type": "belly",
+                    "obj_st": 3,
+                    "obj_end": 3,
+                    "obj_type": "color",
+                    "rel_type": "belly_is"
+                },
+                {
+                    "category": "appearance",
+                    "subj_st": 15,
+                    "subj_end": 15,
+                    "subj_type": "chest",
+                    "obj_st": 3,
+                    "obj_end": 3,
+                    "obj_type": "color",
+                    "rel_type": "chest_is"
+                },
+                {
+                    "category": "appearance",
+                    "subj_st": 19,
+                    "subj_end": 19,
+                    "subj_type": "shoulder",
+                    "obj_st": 3,
+                    "obj_end": 3,
+                    "obj_type": "color",
+                    "rel_type": "shoulder_is"
+                },
+                {
+                    "category": "appearance",
                     "subj_st": 26,
                     "subj_end": 26,
                     "subj_type": "head",
-                    "obj_st": 0,
-                    "obj_end": 0,
-                    "obj_type": "",
+                    "obj_st": 3,
+                    "obj_end": 3,
+                    "obj_type": "color",
                     "rel_type": "head_is"
                 },
                 {
@@ -23980,9 +24082,9 @@
                     "subj_st": 28,
                     "subj_end": 28,
                     "subj_type": "leg",
-                    "obj_st": 0,
-                    "obj_end": 0,
-                    "obj_type": "",
+                    "obj_st": 3,
+                    "obj_end": 3,
+                    "obj_type": "color",
                     "rel_type": "leg_is"
                 }
             ]
@@ -24403,9 +24505,9 @@
                     "subj_end": 10,
                     "subj_type": "fin",
                     "obj_st": 0,
-                    "obj_end": 0,
-                    "obj_type": "",
-                    "rel_type": "fin_is"
+                    "obj_end": 1,
+                    "obj_type": "fur",
+                    "rel_type": "do_not_have"
                 }
             ]
         },
@@ -25661,20 +25763,10 @@
                     "subj_st": 5,
                     "subj_end": 5,
                     "subj_type": "body",
-                    "obj_st": 0,
-                    "obj_end": 0,
-                    "obj_type": "",
+                    "obj_st": 6,
+                    "obj_end": 10,
+                    "obj_type": "characteristic",
                     "rel_type": "body_is"
-                },
-                {
-                    "category": "appearance",
-                    "subj_st": 10,
-                    "subj_end": 10,
-                    "subj_type": "tail",
-                    "obj_st": 0,
-                    "obj_end": 0,
-                    "obj_type": "",
-                    "rel_type": "tail_is"
                 }
             ]
         },
