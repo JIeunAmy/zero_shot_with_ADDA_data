@@ -1,4 +1,4 @@
-# Zero_shot_with_AFR_data
+# Attribute Description Dataset of Animal(ADDA)
 
 ## Animal Feature Relation Data
 
@@ -17,6 +17,8 @@ We split explanations of animals into 4 categories(appearance, habitat, diet, ch
 These categories are a large classification of the feature found in animal images.
 *additionally, category **characteristic** is for the features that cannot be included in any other categories*
 
+## Overview
+![an overview](./overview.png)
 
 # Detailed Explanation of Data
 ## subj and obj types
